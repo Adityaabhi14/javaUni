@@ -6,7 +6,7 @@ class NumTable {
 		System.out.println("Enter a Number that you want the Table");
 		a = scanner.nextInt();
 		for(int i = 1;i < 11; i++) {
-			System.out.println(a+ " x " + i + " = " + a*i);
+			System.out.println(a+ " x " + i + " = " + (a*i));
 			}
 		scanner.close();
  
